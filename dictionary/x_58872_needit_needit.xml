@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="New Filed -1" max_length="40" name="new_filed_1" type="integer"/>
+        <element default="6" label="Lucky number" max_length="10" name="u_lucky_number" type="integer"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Wiki type" max_length="65536" name="u_wiki_text" type="wiki_text"/>
+    </element>
+</database>
